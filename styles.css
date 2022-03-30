@@ -1,0 +1,44 @@
+/* html {
+    width: 375px;
+} */
+
+body {
+    width: 675px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+header {
+    background-image: url(/images/house.png);
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+    /* position: absolute; */
+    color: white;
+}
+
+nav {
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+}
+
+section {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; */
+
+}
+
+section h1 {
+    color: black;
+}
+
+section a {
+    font-size: 24px;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
