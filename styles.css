@@ -3,16 +3,16 @@
 } */
 
 body {
-    width: 675px;
+    width: 375px;
+    height: 2478px;
     margin: 20px auto;
     text-align: center;
     font-family: 'Roboto Mono', sans-serif;
 }
 
 header {
-    background-image: url(/images/house.png);
-    height: 900px;
-    background-position: center;
+    background-image: url(/images/backgroun-image-house.png);
+    height: 794px;
     background-size: cover;
     /* position: absolute; */
     color: white;
@@ -22,6 +22,24 @@ nav {
     margin-top: 20px;
     display: flex;
     position: relative;
+    justify-content: space-around;
+    padding: 30px 30px;
+    height: 70px;
+}
+
+div h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+div h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+header div {
+    text-align: left;
+    margin-left: 40px;
 }
 
 section {
@@ -29,6 +47,11 @@ section {
     flex-direction: column;
     justify-content: space-between;
     align-items: center; */
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
 
 }
 
@@ -36,9 +59,51 @@ section h1 {
     color: black;
 }
 
-section a {
+section p {
+    font-size: 18px;
+}
+
+a {
     font-size: 24px;
-    border: 3px solid black;
-    border-radius: 20px;
-    padding: 10px;
+    border: 4px solid black;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+main {
+    margin-top: 30px;
+}
+
+main h2 {
+    font-size: 34px;
+    text-align: left;
+    margin: 0;
+}
+
+.icons {
+    margin: 10px auto;
+}
+
+main #content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
+}
+
+main p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer {
+    height: 709px;
+    background-image: url(/images/background-image-family.png);
+}
+
+footer h2 {
+    font-size: 24px;
+    padding-top: 80px;
+    padding-bottom: 100px;
 }
